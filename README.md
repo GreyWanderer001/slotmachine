@@ -17,4 +17,9 @@
 + If you get 3 bars, then your bet is x5
 + If you get 2 sevens, then your bet is x4
 + If you get 3 sevens, then your bet is x10
+#### Control:
++ Increase bet by 5, press right arrow
++ Decrease bet by 5, press left arrow
++ Put all-in, press key A
++ Put 50% of balance, press key S
 ### Good luck in the game!
