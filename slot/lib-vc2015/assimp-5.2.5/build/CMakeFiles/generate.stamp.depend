@@ -1,0 +1,42 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/CMakeLists.txt
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/assimp.pc.in
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/build/CMakeFiles/3.25.0-rc1/CMakeCCompiler.cmake
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/build/CMakeFiles/3.25.0-rc1/CMakeCXXCompiler.cmake
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/build/CMakeFiles/3.25.0-rc1/CMakeRCCompiler.cmake
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/build/CMakeFiles/3.25.0-rc1/CMakeSystem.cmake
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/cmake-modules/FindPkgMacros.cmake
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/cmake-modules/FindZLIB.cmake
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/cmake-modules/PrecompiledHeader.cmake
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/cmake-modules/assimp-plain-config.cmake.in
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/cmake-modules/cmake_uninstall.cmake.in
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/include/assimp/config.h.in
+C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/revision.h.in

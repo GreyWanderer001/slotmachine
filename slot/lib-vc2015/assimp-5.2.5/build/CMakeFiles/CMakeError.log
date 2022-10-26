@@ -1,0 +1,93 @@
+Determining size of off64_t failed with the following output:
+Change Dir: C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/build/CMakeFiles/CMakeScratch/TryCompile-zou6eg
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b9f32.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.33.31630 ¤«п x64
+  OFF64_T.c
+C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\OFF64_T.c(29,12): error C2065: off64_t: ­Ґ®Ўкпў«Ґ­­л© Ё¤Ґ­вЁдЁЄ в®а [C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\cmTC_b9f32.vcxproj]
+C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\OFF64_T.c(30,12): error C2065: off64_t: ­Ґ®Ўкпў«Ґ­­л© Ё¤Ґ­вЁдЁЄ в®а [C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\cmTC_b9f32.vcxproj]
+C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\OFF64_T.c(31,12): error C2065: off64_t: ­Ґ®Ўкпў«Ґ­­л© Ё¤Ґ­вЁдЁЄ в®а [C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\cmTC_b9f32.vcxproj]
+C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\OFF64_T.c(32,12): error C2065: off64_t: ­Ґ®Ўкпў«Ґ­­л© Ё¤Ґ­вЁдЁЄ в®а [C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\cmTC_b9f32.vcxproj]
+C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\OFF64_T.c(33,12): error C2065: off64_t: ­Ґ®Ўкпў«Ґ­­л© Ё¤Ґ­вЁдЁЄ в®а [C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\cmTC_b9f32.vcxproj]
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9f32.dir\Debug\\" /Fd"cmTC_b9f32.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-zou6eg\OFF64_T.c"
+
+
+OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/build/CMakeFiles/CMakeScratch/TryCompile-09rpdk
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_914f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.33.31630 ¤«п x64
+  CheckFunctionExists.c
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_914f9.dir\Debug\\" /Fd"cmTC_914f9.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-09rpdk\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: ббл«Є  ­  ­Ґа §аҐиҐ­­л© ў­Ґи­Ё© бЁ¬ў®« fseeko ў дг­ЄжЁЁ main. [C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-09rpdk\cmTC_914f9.vcxproj]
+C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-09rpdk\Debug\cmTC_914f9.exe : fatal error LNK1120: ­Ґа §аҐиҐ­­ле ў­Ґи­Ёе н«Ґ¬Ґ­в®ў: 1 [C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-09rpdk\cmTC_914f9.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/robert/Desktop/slot/slot/lib-vc2015/assimp-5.2.5/build/CMakeFiles/CMakeScratch/TryCompile-hg10eq
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_04d24.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.33.31630 ¤«п x64
+  CheckIncludeFile.c
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04d24.dir\Debug\\" /Fd"cmTC_04d24.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-hg10eq\CheckIncludeFile.c"
+C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-hg10eq\CheckIncludeFile.c(1,10): fatal  error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [C:\Users\robert\Desktop\slot\slot\lib-vc2015\assimp-5.2.5\build\CMakeFiles\CMakeScratch\TryCompile-hg10eq\cmTC_04d24.vcxproj]
+
+
+
