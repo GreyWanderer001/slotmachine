@@ -10,3 +10,9 @@
 4. Orange
 5. Seven
 6. Plum
+#### If you get 2 cherries or 2 bells or 2 oranges or 2 plums, then your bet is x2
+#### If you get 3 cherries or 3 bells or 3 oranges or 3 plums, then your bet is x3
+#### If you get 2 bars, then your bet is x3
+#### If you get 3 bars, then your bet is x5
+#### If you get 2 sevens, then your bet is x4
+#### If you get 3 sevens, then your bet is x10
