@@ -3,3 +3,10 @@
 ### You can download the entire project to view the code, or you can download the release to play around with. For this:
 1. Go to <a href="https://github.com/GreyWanderer001/slotmachine/releases/tag/Release" target="_blank">Release</a>
 2. And follow further instructions
+#### The game consists of three spinning reels, which consist of 6 different items:
+1. Cherry
+2. Bar
+3. Bell
+4. Orange
+5. Seven
+6. Plum
