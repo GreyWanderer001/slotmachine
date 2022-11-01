@@ -20,6 +20,6 @@
 #### Control:
 + Increase bet by 5, press right arrow
 + Decrease bet by 5, press left arrow
-+ Put all-in, press key A
-+ Put 50% of balance, press key S
++ Put all-in, press key <kbd>A</kbd>
++ Put 50% of balance, press key <kbd>S</kbd>
 ### Good luck in the game!
